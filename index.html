@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madhu Bathula Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Madhu Bathula</h1>
+      <p>Software Engineer | Full-stack Developer</p>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>Job Portal Backend</h3>
+            <p>Backend system with Flask, REST APIs, and MySQL supporting user roles and job listings.</p>
+            <a href="https://github.com/Madhu4754/job-portal-backend" target="_blank">View on GitHub</a>
+          </div>
+          <div class="card">
+            <h3>Career Recommendation</h3>
+            <p>Full-stack platform with ML backend and Flask API integration for personalized career suggestions.</p>
+            <a href="https://github.com/Madhu4754/SMART-CAREER-RECOMMENDATION-SYSTEM" target="_blank">View on GitHub</a>
+          </div>
+          <div class="card">
+            <h3>ECG Arrhythmia Detection</h3>
+            <p>Healthcare AI project detecting arrhythmias from ECG using ML with dashboard simulation.</p>
+            <a href="https://github.com/Madhu4754/ECG-Arrhythmia-Detection" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resume" class="section">
+      <div class="container">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="#" download>PDF Version</a></p>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" required placeholder="Your Name"/>
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="your.email@example.com"/>
+          <label for="message">Message</label>
+          <textarea id="message" required placeholder="Hi Madhu, I'd like to connect..."></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p class="info">Note: This is a demo contact form; configure backend or mailto to make it live.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Madhu Bathula. Built with HTML, CSS, JavaScript.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
